@@ -1,0 +1,67 @@
+@import "../styles";
+
+.cardsSection {
+  .cardWithLeftPadding,
+  .cardWithoutLeftPadding {
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+
+    @media screen and (max-width: 800px) {
+      padding: 0;
+      flex-direction: column;
+      gap: 40px;
+    }
+  }
+
+  .cardWithoutLeftPadding {
+    margin-bottom: 100px;
+
+    @media screen and (max-width: 1400px) {
+      margin-bottom: 78px;
+    }
+    @media screen and (max-width: 800px) {
+      margin-bottom: 56px;
+    }
+  }
+
+  .text {
+    width: 36vw;
+    h1 {
+      margin-bottom: 25px;
+    }
+
+    @media screen and (max-width: 800px) {
+      padding: 0 20px;
+      width: 100%;
+    }
+  }
+}
+
+.cardWithoutLeftPadding {
+  padding-right: 16vw;
+
+  .photoWrapper {
+    width: 44vw;
+    height: 480px;
+    @media screen and (max-width: 800px) {
+      height: 370px;
+      width: 100%;
+    }
+  }
+}
+
+.cardWithLeftPadding {
+  padding-right: 16vw;
+  padding-left: 8vw;
+
+  .photoWrapper {
+    width: 36vw;
+    height: 411px;
+
+    @media screen and (max-width: 800px) {
+      height: 360px;
+      width: 100%;
+    }
+  }
+}
