@@ -1,5 +1,8 @@
 ## Автор: Торопова Наталья
-*Для компании Keep Calm*
+
+*Тестовое задание от компании Keep Calm*
+
+[Ссылка на деплой проекта](https://test-assignment-keep-calm.vercel.app/)
 
 Проект собран с помощью `create-react-app`
 
