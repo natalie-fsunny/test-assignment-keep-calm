@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Orchidea Pro";
+  src: url("./fonts/OrchideaPro-Regular.ttf");
+}
+
+* {
+  font-family: "Orchidea Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+h1 {
+  font-size: 48px;
+  @media screen and (max-width: 1400px) {
+    font-size: 36px;
+  }
+  @media screen and (max-width: 800px) {
+    font-size: 24px;
+  }
+}
+
+p {
+  font-size: 18px;
+  @media screen and (max-width: 1400px) {
+    font-size: 16px;
+  }
+  @media screen and (max-width: 800px) {
+    font-size: 14px;
+  }
+}
